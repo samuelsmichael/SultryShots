@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4FA027EE-6FE5-4113-B2CD-29D2D4C20C0E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SultryShots</RootNamespace>
+    <AssemblyName>SultryShots</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="120713\12121301.jpg" />
+    <Content Include="120713\12121302.jpg" />
+    <Content Include="120713\12121303.jpg" />
+    <Content Include="120713\12121304.jpg" />
+    <Content Include="120713\bg.jpg" />
+    <Content Include="120713\chicks.jpg" />
+    <Content Include="120713\edit_item.jpg" />
+    <Content Include="120713\floatbox\compressed\floatbox.css" />
+    <Content Include="120713\floatbox\compressed\floatbox.js" />
+    <Content Include="120713\floatbox\compressed\framebox.js" />
+    <Content Include="120713\floatbox\compressed\readme.txt" />
+    <Content Include="120713\floatbox\docs\floatbox_source.js" />
+    <Content Include="120713\floatbox\docs\instructions.html" />
+    <Content Include="120713\floatbox\docs\license.html" />
+    <Content Include="120713\floatbox\docs\options.html" />
+    <Content Include="120713\floatbox\floatbox.css" />
+    <Content Include="120713\floatbox\floatbox.js" />
+    <Content Include="120713\floatbox\framebox.js" />
+    <Content Include="120713\floatbox\graphics\404.jpg" />
+    <Content Include="120713\floatbox\graphics\blank.gif" />
+    <Content Include="120713\floatbox\graphics\close_black.gif" />
+    <Content Include="120713\floatbox\graphics\close_blue.gif" />
+    <Content Include="120713\floatbox\graphics\close_red.gif" />
+    <Content Include="120713\floatbox\graphics\close_white.gif" />
+    <Content Include="120713\floatbox\graphics\close_yellow.gif" />
+    <Content Include="120713\floatbox\graphics\loading_black.gif" />
+    <Content Include="120713\floatbox\graphics\loading_black_small.gif" />
+    <Content Include="120713\floatbox\graphics\loading_iframe.html" />
+    <Content Include="120713\floatbox\graphics\loading_white.gif" />
+    <Content Include="120713\floatbox\graphics\loading_white_small.gif" />
+    <Content Include="120713\floatbox\graphics\magnify_minus.cur" />
+    <Content Include="120713\floatbox\graphics\magnify_plus.cur" />
+    <Content Include="120713\floatbox\graphics\next_lwr_black.gif" />
+    <Content Include="120713\floatbox\graphics\next_lwr_blue.gif" />
+    <Content Include="120713\floatbox\graphics\next_lwr_off_black.gif" />
+    <Content Include="120713\floatbox\graphics\next_lwr_off_blue.gif" />
+    <Content Include="120713\floatbox\graphics\next_lwr_off_red.gif" />
+    <Content Include="120713\floatbox\graphics\next_lwr_off_white.gif" />
+    <Content Include="120713\floatbox\graphics\next_lwr_off_yellow.gif" />
+    <Content Include="120713\floatbox\graphics\next_lwr_red.gif" />
+    <Content Include="120713\floatbox\graphics\next_lwr_white.gif" />
+    <Content Include="120713\floatbox\graphics\next_lwr_yellow.gif" />
+    <Content Include="120713\floatbox\graphics\next_upr_black.gif" />
+    <Content Include="120713\floatbox\graphics\next_upr_blue.gif" />
+    <Content Include="120713\floatbox\graphics\next_upr_red.gif" />
+    <Content Include="120713\floatbox\graphics\next_upr_white.gif" />
+    <Content Include="120713\floatbox\graphics\next_upr_yellow.gif" />
+    <Content Include="120713\floatbox\graphics\pause_black.gif" />
+    <Content Include="120713\floatbox\graphics\pause_blue.gif" />
+    <Content Include="120713\floatbox\graphics\pause_red.gif" />
+    <Content Include="120713\floatbox\graphics\pause_white.gif" />
+    <Content Include="120713\floatbox\graphics\pause_yellow.gif" />
+    <Content Include="120713\floatbox\graphics\play_black.gif" />
+    <Content Include="120713\floatbox\graphics\play_blue.gif" />
+    <Content Include="120713\floatbox\graphics\play_red.gif" />
+    <Content Include="120713\floatbox\graphics\play_white.gif" />
+    <Content Include="120713\floatbox\graphics\play_yellow.gif" />
+    <Content Include="120713\floatbox\graphics\prev_lwr_black.gif" />
+    <Content Include="120713\floatbox\graphics\prev_lwr_blue.gif" />
+    <Content Include="120713\floatbox\graphics\prev_lwr_off_black.gif" />
+    <Content Include="120713\floatbox\graphics\prev_lwr_off_blue.gif" />
+    <Content Include="120713\floatbox\graphics\prev_lwr_off_red.gif" />
+    <Content Include="120713\floatbox\graphics\prev_lwr_off_white.gif" />
+    <Content Include="120713\floatbox\graphics\prev_lwr_off_yellow.gif" />
+    <Content Include="120713\floatbox\graphics\prev_lwr_red.gif" />
+    <Content Include="120713\floatbox\graphics\prev_lwr_white.gif" />
+    <Content Include="120713\floatbox\graphics\prev_lwr_yellow.gif" />
+    <Content Include="120713\floatbox\graphics\prev_upr_black.gif" />
+    <Content Include="120713\floatbox\graphics\prev_upr_blue.gif" />
+    <Content Include="120713\floatbox\graphics\prev_upr_red.gif" />
+    <Content Include="120713\floatbox\graphics\prev_upr_white.gif" />
+    <Content Include="120713\floatbox\graphics\prev_upr_yellow.gif" />
+    <Content Include="120713\floatbox\graphics\resize_black.gif" />
+    <Content Include="120713\floatbox\graphics\resize_black_small.gif" />
+    <Content Include="120713\floatbox\graphics\resize_blue.gif" />
+    <Content Include="120713\floatbox\graphics\resize_blue_small.gif" />
+    <Content Include="120713\floatbox\graphics\resize_red.gif" />
+    <Content Include="120713\floatbox\graphics\resize_red_small.gif" />
+    <Content Include="120713\floatbox\graphics\resize_white.gif" />
+    <Content Include="120713\floatbox\graphics\resize_white_small.gif" />
+    <Content Include="120713\floatbox\graphics\resize_yellow.gif" />
+    <Content Include="120713\floatbox\graphics\resize_yellow_small.gif" />
+    <Content Include="120713\floatbox\graphics\shadowBottom_drop12.png" />
+    <Content Include="120713\floatbox\graphics\shadowBottom_drop16.png" />
+    <Content Include="120713\floatbox\graphics\shadowBottom_drop24.png" />
+    <Content Include="120713\floatbox\graphics\shadowBottom_drop8.png" />
+    <Content Include="120713\floatbox\graphics\shadowBottom_halo12.png" />
+    <Content Include="120713\floatbox\graphics\shadowBottom_halo16.png" />
+    <Content Include="120713\floatbox\graphics\shadowBottom_halo24.png" />
+    <Content Include="120713\floatbox\graphics\shadowBottom_halo8.png" />
+    <Content Include="120713\floatbox\graphics\shadowCorner_drop12.png" />
+    <Content Include="120713\floatbox\graphics\shadowCorner_drop16.png" />
+    <Content Include="120713\floatbox\graphics\shadowCorner_drop24.png" />
+    <Content Include="120713\floatbox\graphics\shadowCorner_drop8.png" />
+    <Content Include="120713\floatbox\graphics\shadowLeft_halo12.png" />
+    <Content Include="120713\floatbox\graphics\shadowLeft_halo16.png" />
+    <Content Include="120713\floatbox\graphics\shadowLeft_halo24.png" />
+    <Content Include="120713\floatbox\graphics\shadowLeft_halo8.png" />
+    <Content Include="120713\floatbox\graphics\shadowRight_drop12.png" />
+    <Content Include="120713\floatbox\graphics\shadowRight_drop16.png" />
+    <Content Include="120713\floatbox\graphics\shadowRight_drop24.png" />
+    <Content Include="120713\floatbox\graphics\shadowRight_drop8.png" />
+    <Content Include="120713\floatbox\graphics\shadowRight_halo12.png" />
+    <Content Include="120713\floatbox\graphics\shadowRight_halo16.png" />
+    <Content Include="120713\floatbox\graphics\shadowRight_halo24.png" />
+    <Content Include="120713\floatbox\graphics\shadowRight_halo8.png" />
+    <Content Include="120713\floatbox\graphics\shadowTop_halo12.png" />
+    <Content Include="120713\floatbox\graphics\shadowTop_halo16.png" />
+    <Content Include="120713\floatbox\graphics\shadowTop_halo24.png" />
+    <Content Include="120713\floatbox\graphics\shadowTop_halo8.png" />
+    <Content Include="120713\floatbox\languages\looking_for.txt" />
+    <Content Include="120713\images406908_devushka_model_1680x1050_%28www.GdeFon.ru%29.jpg" />
+    <Content Include="120713\images\0093-W.jpg" />
+    <Content Include="120713\images\01.jpg" />
+    <Content Include="120713\images\02.jpg" />
+    <Content Include="120713\images\04.jpg" />
+    <Content Include="120713\images\05.jpg" />
+    <Content Include="120713\images\0589--W.jpg" />
+    <Content Include="120713\images\06.jpg" />
+    <Content Include="120713\images\07.jpg" />
+    <Content Include="120713\images\08.jpg" />
+    <Content Include="120713\images\1124-W.jpg" />
+    <Content Include="120713\images\1167-W.jpg" />
+    <Content Include="120713\images\12121301.jpg" />
+    <Content Include="120713\images\12121302.jpg" />
+    <Content Include="120713\images\12121303.jpg" />
+    <Content Include="120713\images\12121304.jpg" />
+    <Content Include="120713\images\1367.jpg" />
+    <Content Include="120713\images\1908-W.jpg" />
+    <Content Include="120713\images\2001-W-BW-Col.jpg" />
+    <Content Include="120713\images\2095-W.jpg" />
+    <Content Include="120713\images\22.jpg" />
+    <Content Include="120713\images\2471-W.jpg" />
+    <Content Include="120713\images\2542-W.jpg" />
+    <Content Include="120713\images\3226-W.jpg" />
+    <Content Include="120713\images\3277-W.jpg" />
+    <Content Include="120713\images\3295-W.jpg" />
+    <Content Include="120713\images\3355-w.jpg" />
+    <Content Include="120713\images\3365-W.jpg" />
+    <Content Include="120713\images\3463-W.jpg" />
+    <Content Include="120713\images\3902-W.jpg" />
+    <Content Include="120713\images\4943-W.jpg" />
+    <Content Include="120713\images\5599-W Black &amp;white.jpg" />
+    <Content Include="120713\images\5599-W.jpg" />
+    <Content Include="120713\images\5681-W.jpg" />
+    <Content Include="120713\images\5688-W.jpg" />
+    <Content Include="120713\images\5694-W.jpg" />
+    <Content Include="120713\images\59th-street-bridge-reflection.jpg" />
+    <Content Include="120713\images\6176-008-W.jpg" />
+    <Content Include="120713\images\7642 .jpg" />
+    <Content Include="120713\images\9621-W.jpg" />
+    <Content Include="120713\images\AdrianaLimaForDonnaKaranSpring20123.jpg" />
+    <Content Include="120713\images\BarbaraPalvinForVogueParisNovember20112.jpg" />
+    <Content Include="120713\images\Brian-Atwood-Crystal-Embellished-Suede-Sandals.jpg" />
+    <Content Include="120713\images\Bugatti-Veyron.jpg" />
+    <Content Include="120713\images\CandiceSwanepoelVictoriasSecretSwim2013.jpg" />
+    <Content Include="120713\images\ClaudiaSchifferGuessCampaign1.jpg" />
+    <Content Include="120713\images\DaphneGroeneveldHarpersBazaarOctober20122.jpg" />
+    <Content Include="120713\images\DSquaredResort201322.jpg" />
+    <Content Include="120713\images\esquire0520102.jpg" />
+    <Content Include="120713\images\Eva-Herzigova-by-Alan-Gelati-for-S-Moda-December-2011.jpg" />
+    <Content Include="120713\images\frida-gustavsson-vogue-netherlandsJanFeb20134.jpg" />
+    <Content Include="120713\images\GeorgiaMayJaggerElleBrazilApril2012.jpg" />
+    <Content Include="120713\images\HermesSS20138.jpg" />
+    <Content Include="120713\images\IzabelGoulartElleBrazilOctober2012.jpg" />
+    <Content Include="120713\images\KarlieKlossVogueUKMarch20124.jpg" />
+    <Content Include="120713\images\Kate-Moss-Covers-Harpers-Bazaar-Russia-June-2011.jpg" />
+    <Content Include="120713\images\KeiraKnightleyEllenVonUnwerthHarpersBazaarRussiaJanuary2013.jpg" />
+    <Content Include="120713\images\KendraSpearsVogueGermanyOctober20129.jpg" />
+    <Content Include="120713\images\LaetitiaCasta-i-DWinter2012.jpg" />
+    <Content Include="120713\images\LindseyWixsonVogueUSMarch20132.jpg" />
+    <Content Include="120713\images\MarloesHorstHarpersBazaarUKJuly20122.jpg" />
+    <Content Include="120713\images\NataliePortmanDiorshowMascaraSS20132.jpg" />
+    <Content Include="120713\logo1.png" />
+    <Content Include="120713\main.css" />
+    <Content Include="120713\main_.css" />
+    <Content Include="120713\table.htm" />
+    <Content Include="120713\three_columns.htm" />
+    <Content Include="120713\three_columns1.htm" />
+    <Content Include="120713\view_cart.jpg" />
+    <Content Include="120713\_hcc_thumbs\12121301.jpg-thumb-80.jpg" />
+    <Content Include="120713\_hcc_thumbs\12121302.jpg-thumb-80.jpg" />
+    <Content Include="120713\_hcc_thumbs\12121303.jpg-thumb-80.jpg" />
+    <Content Include="120713\_hcc_thumbs\12121304.jpg-thumb-80.jpg" />
+    <Content Include="120713\_hcc_thumbs\bg.jpg-thumb-80.jpg" />
+    <Content Include="120713\_hcc_thumbs\chicks.jpg-thumb-80.jpg" />
+    <Content Include="120713\_hcc_thumbs\edit_item.jpg-thumb-80.jpg" />
+    <Content Include="120713\_hcc_thumbs\images406908_devushka_model_1680x1050_%28www.GdeFon.ru%29.jpg-thumb-80.jpg" />
+    <Content Include="120713\_hcc_thumbs\logo1.png-thumb-80.png" />
+    <Content Include="bg.jpg" />
+    <Content Include="btn_cart_SM.gif" />
+    <Content Include="cart_btn.jpg" />
+    <Content Include="chick.jpg" />
+    <Content Include="chicks.jpg" />
+    <Content Include="Default.aspx" />
+    <Content Include="floatbox\compressed\floatbox.css" />
+    <Content Include="floatbox\compressed\floatbox.js" />
+    <Content Include="floatbox\compressed\framebox.js" />
+    <Content Include="floatbox\compressed\readme.txt" />
+    <Content Include="floatbox\docs\floatbox_source.js" />
+    <Content Include="floatbox\docs\instructions.html" />
+    <Content Include="floatbox\docs\license.html" />
+    <Content Include="floatbox\docs\options.html" />
+    <Content Include="floatbox\floatbox.css" />
+    <Content Include="floatbox\floatbox.js" />
+    <Content Include="floatbox\framebox.js" />
+    <Content Include="floatbox\graphics\404.jpg" />
+    <Content Include="floatbox\graphics\blank.gif" />
+    <Content Include="floatbox\graphics\close_black.gif" />
+    <Content Include="floatbox\graphics\close_blue.gif" />
+    <Content Include="floatbox\graphics\close_red.gif" />
+    <Content Include="floatbox\graphics\close_white.gif" />
+    <Content Include="floatbox\graphics\close_yellow.gif" />
+    <Content Include="floatbox\graphics\loading_black.gif" />
+    <Content Include="floatbox\graphics\loading_black_small.gif" />
+    <Content Include="floatbox\graphics\loading_iframe.html" />
+    <Content Include="floatbox\graphics\loading_white.gif" />
+    <Content Include="floatbox\graphics\loading_white_small.gif" />
+    <Content Include="floatbox\graphics\magnify_minus.cur" />
+    <Content Include="floatbox\graphics\magnify_plus.cur" />
+    <Content Include="floatbox\graphics\next_lwr_black.gif" />
+    <Content Include="floatbox\graphics\next_lwr_blue.gif" />
+    <Content Include="floatbox\graphics\next_lwr_off_black.gif" />
+    <Content Include="floatbox\graphics\next_lwr_off_blue.gif" />
+    <Content Include="floatbox\graphics\next_lwr_off_red.gif" />
+    <Content Include="floatbox\graphics\next_lwr_off_white.gif" />
+    <Content Include="floatbox\graphics\next_lwr_off_yellow.gif" />
+    <Content Include="floatbox\graphics\next_lwr_red.gif" />
+    <Content Include="floatbox\graphics\next_lwr_white.gif" />
+    <Content Include="floatbox\graphics\next_lwr_yellow.gif" />
+    <Content Include="floatbox\graphics\next_upr_black.gif" />
+    <Content Include="floatbox\graphics\next_upr_blue.gif" />
+    <Content Include="floatbox\graphics\next_upr_red.gif" />
+    <Content Include="floatbox\graphics\next_upr_white.gif" />
+    <Content Include="floatbox\graphics\next_upr_yellow.gif" />
+    <Content Include="floatbox\graphics\pause_black.gif" />
+    <Content Include="floatbox\graphics\pause_blue.gif" />
+    <Content Include="floatbox\graphics\pause_red.gif" />
+    <Content Include="floatbox\graphics\pause_white.gif" />
+    <Content Include="floatbox\graphics\pause_yellow.gif" />
+    <Content Include="floatbox\graphics\play_black.gif" />
+    <Content Include="floatbox\graphics\play_blue.gif" />
+    <Content Include="floatbox\graphics\play_red.gif" />
+    <Content Include="floatbox\graphics\play_white.gif" />
+    <Content Include="floatbox\graphics\play_yellow.gif" />
+    <Content Include="floatbox\graphics\prev_lwr_black.gif" />
+    <Content Include="floatbox\graphics\prev_lwr_blue.gif" />
+    <Content Include="floatbox\graphics\prev_lwr_off_black.gif" />
+    <Content Include="floatbox\graphics\prev_lwr_off_blue.gif" />
+    <Content Include="floatbox\graphics\prev_lwr_off_red.gif" />
+    <Content Include="floatbox\graphics\prev_lwr_off_white.gif" />
+    <Content Include="floatbox\graphics\prev_lwr_off_yellow.gif" />
+    <Content Include="floatbox\graphics\prev_lwr_red.gif" />
+    <Content Include="floatbox\graphics\prev_lwr_white.gif" />
+    <Content Include="floatbox\graphics\prev_lwr_yellow.gif" />
+    <Content Include="floatbox\graphics\prev_upr_black.gif" />
+    <Content Include="floatbox\graphics\prev_upr_blue.gif" />
+    <Content Include="floatbox\graphics\prev_upr_red.gif" />
+    <Content Include="floatbox\graphics\prev_upr_white.gif" />
+    <Content Include="floatbox\graphics\prev_upr_yellow.gif" />
+    <Content Include="floatbox\graphics\resize_black.gif" />
+    <Content Include="floatbox\graphics\resize_black_small.gif" />
+    <Content Include="floatbox\graphics\resize_blue.gif" />
+    <Content Include="floatbox\graphics\resize_blue_small.gif" />
+    <Content Include="floatbox\graphics\resize_red.gif" />
+    <Content Include="floatbox\graphics\resize_red_small.gif" />
+    <Content Include="floatbox\graphics\resize_white.gif" />
+    <Content Include="floatbox\graphics\resize_white_small.gif" />
+    <Content Include="floatbox\graphics\resize_yellow.gif" />
+    <Content Include="floatbox\graphics\resize_yellow_small.gif" />
+    <Content Include="floatbox\graphics\shadowBottom_drop12.png" />
+    <Content Include="floatbox\graphics\shadowBottom_drop16.png" />
+    <Content Include="floatbox\graphics\shadowBottom_drop24.png" />
+    <Content Include="floatbox\graphics\shadowBottom_drop8.png" />
+    <Content Include="floatbox\graphics\shadowBottom_halo12.png" />
+    <Content Include="floatbox\graphics\shadowBottom_halo16.png" />
+    <Content Include="floatbox\graphics\shadowBottom_halo24.png" />
+    <Content Include="floatbox\graphics\shadowBottom_halo8.png" />
+    <Content Include="floatbox\graphics\shadowCorner_drop12.png" />
+    <Content Include="floatbox\graphics\shadowCorner_drop16.png" />
+    <Content Include="floatbox\graphics\shadowCorner_drop24.png" />
+    <Content Include="floatbox\graphics\shadowCorner_drop8.png" />
+    <Content Include="floatbox\graphics\shadowLeft_halo12.png" />
+    <Content Include="floatbox\graphics\shadowLeft_halo16.png" />
+    <Content Include="floatbox\graphics\shadowLeft_halo24.png" />
+    <Content Include="floatbox\graphics\shadowLeft_halo8.png" />
+    <Content Include="floatbox\graphics\shadowRight_drop12.png" />
+    <Content Include="floatbox\graphics\shadowRight_drop16.png" />
+    <Content Include="floatbox\graphics\shadowRight_drop24.png" />
+    <Content Include="floatbox\graphics\shadowRight_drop8.png" />
+    <Content Include="floatbox\graphics\shadowRight_halo12.png" />
+    <Content Include="floatbox\graphics\shadowRight_halo16.png" />
+    <Content Include="floatbox\graphics\shadowRight_halo24.png" />
+    <Content Include="floatbox\graphics\shadowRight_halo8.png" />
+    <Content Include="floatbox\graphics\shadowTop_halo12.png" />
+    <Content Include="floatbox\graphics\shadowTop_halo16.png" />
+    <Content Include="floatbox\graphics\shadowTop_halo24.png" />
+    <Content Include="floatbox\graphics\shadowTop_halo8.png" />
+    <Content Include="floatbox\languages\looking_for.txt" />
+    <Content Include="logo1.png" />
+    <Content Include="main.css" />
+    <Content Include="PhotoManager.ascx" />
+    <Content Include="photos_admin.aspx" />
+    <Content Include="scroll.jpg" />
+    <Content Include="thanks.htm" />
+    <Content Include="view_cart.jpg" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="webimages\0093-W.jpg" />
+    <Content Include="webimages\01.jpg" />
+    <Content Include="webimages\0137-E.jpg" />
+    <Content Include="webimages\014-1-16x20-E.jpg" />
+    <Content Include="webimages\0143B&amp;W-E.jpg" />
+    <Content Include="webimages\0193-E.jpg" />
+    <Content Include="webimages\02.jpg" />
+    <Content Include="webimages\0209-A-E.jpg" />
+    <Content Include="webimages\04.jpg" />
+    <Content Include="webimages\05-E.jpg" />
+    <Content Include="webimages\05.jpg" />
+    <Content Include="webimages\0589--W.jpg" />
+    <Content Include="webimages\059-E.jpg" />
+    <Content Include="webimages\06.jpg" />
+    <Content Include="webimages\063-E.jpg" />
+    <Content Include="webimages\07-E.jpg" />
+    <Content Include="webimages\07.jpg" />
+    <Content Include="webimages\08.jpg" />
+    <Content Include="webimages\094-E.jpg" />
+    <Content Include="webimages\104-E.jpg" />
+    <Content Include="webimages\1124-W.jpg" />
+    <Content Include="webimages\1167-W.jpg" />
+    <Content Include="webimages\117-E.jpg" />
+    <Content Include="webimages\155-B-E.jpg" />
+    <Content Include="webimages\1908-W.jpg" />
+    <Content Include="webimages\2001-W-BW-Col.jpg" />
+    <Content Include="webimages\206-B&amp;W-B-E.jpg" />
+    <Content Include="webimages\208-C-E.jpg" />
+    <Content Include="webimages\2095-W.jpg" />
+    <Content Include="webimages\2471-W.jpg" />
+    <Content Include="webimages\2542-W.jpg" />
+    <Content Include="webimages\3226-W.jpg" />
+    <Content Include="webimages\3277-W.jpg" />
+    <Content Include="webimages\3295-W.jpg" />
+    <Content Include="webimages\3342-13x19-B&amp;W.jpg" />
+    <Content Include="webimages\3355-w.jpg" />
+    <Content Include="webimages\3365-W.jpg" />
+    <Content Include="webimages\3463-W.jpg" />
+    <Content Include="webimages\3902-W.jpg" />
+    <Content Include="webimages\4943-W.jpg" />
+    <Content Include="webimages\5599-E Black &amp;white.jpg" />
+    <Content Include="webimages\5620-16x20-Sam%27s.jpg" />
+    <Content Include="webimages\5681-W.jpg" />
+    <Content Include="webimages\5688-W.jpg" />
+    <Content Include="webimages\5694-W.jpg" />
+    <Content Include="webimages\5895-W.jpg" />
+    <Content Include="webimages\6176-008-W.jpg" />
+    <Content Include="webimages\6549-16x20-B&amp;W.jpg" />
+    <Content Include="webimages\7642 .jpg" />
+    <Content Include="webimages\9621-W.jpg" />
+    <Content Include="webimages\DACO179-B&amp;W-E.jpg" />
+    <Content Include="webimages\DSC_0051-E.jpg" />
+    <Content Include="webimages\Picture 107.jpg" />
+    <Content Include="_hcc_thumbs\bg.jpg-thumb-80.jpg" />
+    <Content Include="_hcc_thumbs\btn_cart_SM.gif-thumb-80.gif" />
+    <Content Include="_hcc_thumbs\cart_btn.jpg-thumb-80.jpg" />
+    <Content Include="_hcc_thumbs\chick.jpg-thumb-80.jpg" />
+    <Content Include="_hcc_thumbs\chicks.jpg-thumb-80.jpg" />
+    <Content Include="_hcc_thumbs\logo1.png-thumb-80.png" />
+    <Content Include="_hcc_thumbs\scroll.jpg-thumb-80.jpg" />
+    <Content Include="_hcc_thumbs\view_cart.jpg-thumb-80.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoManager.ascx.cs">
+      <DependentUpon>PhotoManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoManager.ascx.designer.cs">
+      <DependentUpon>PhotoManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="photos_admin.aspx.cs">
+      <DependentUpon>photos_admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="photos_admin.aspx.designer.cs">
+      <DependentUpon>photos_admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="120713\add.php" />
+    <None Include="120713\addprocess.php" />
+    <None Include="120713\admin.php" />
+    <None Include="120713\checklogin.php" />
+    <None Include="120713\default.php" />
+    <None Include="120713\delete.php" />
+    <None Include="120713\edit.php" />
+    <None Include="120713\editprocess.php" />
+    <None Include="120713\editsizeprice.php" />
+    <None Include="120713\editsizepriceprocess.php" />
+    <None Include="120713\floatbox\compressed\.htaccess" />
+    <None Include="120713\floatbox\compressed\floatbox.css.gz" />
+    <None Include="120713\floatbox\compressed\floatbox.js.gz" />
+    <None Include="120713\floatbox\compressed\framebox.js.gz" />
+    <None Include="120713\floatbox\compressed\WS_FTP.LOG" />
+    <None Include="120713\floatbox\docs\WS_FTP.LOG" />
+    <None Include="120713\floatbox\graphics\WS_FTP.LOG" />
+    <None Include="120713\floatbox\languages\ar.json" />
+    <None Include="120713\floatbox\languages\cs.json" />
+    <None Include="120713\floatbox\languages\da.json" />
+    <None Include="120713\floatbox\languages\de.json" />
+    <None Include="120713\floatbox\languages\el.json" />
+    <None Include="120713\floatbox\languages\en.json" />
+    <None Include="120713\floatbox\languages\es.json" />
+    <None Include="120713\floatbox\languages\fi.json" />
+    <None Include="120713\floatbox\languages\fr.json" />
+    <None Include="120713\floatbox\languages\gl.json" />
+    <None Include="120713\floatbox\languages\hi.json" />
+    <None Include="120713\floatbox\languages\hr.json" />
+    <None Include="120713\floatbox\languages\hu.json" />
+    <None Include="120713\floatbox\languages\it.json" />
+    <None Include="120713\floatbox\languages\ja.json" />
+    <None Include="120713\floatbox\languages\nl.json" />
+    <None Include="120713\floatbox\languages\no.json" />
+    <None Include="120713\floatbox\languages\pl.json" />
+    <None Include="120713\floatbox\languages\pt.json" />
+    <None Include="120713\floatbox\languages\ru.json" />
+    <None Include="120713\floatbox\languages\sk.json" />
+    <None Include="120713\floatbox\languages\sv.json" />
+    <None Include="120713\floatbox\languages\th.json" />
+    <None Include="120713\floatbox\languages\vi.json" />
+    <None Include="120713\floatbox\languages\WS_FTP.LOG" />
+    <None Include="120713\floatbox\languages\zh.json" />
+    <None Include="120713\floatbox\languages\zh.traditional.json" />
+    <None Include="120713\floatbox\WS_FTP.LOG" />
+    <None Include="120713\galleries1.php" />
+    <None Include="120713\galleries2.php" />
+    <None Include="120713\galleriesedit.php" />
+    <None Include="120713\images\Thumbs.db" />
+    <None Include="120713\images\WS_FTP.LOG" />
+    <None Include="120713\login.php" />
+    <None Include="120713\ps_pagination.php" />
+    <None Include="120713\sizeprice2.php" />
+    <None Include="120713\sizepriceedit.php" />
+    <None Include="120713\upload.php" />
+    <None Include="contact.php" />
+    <Content Include="default.htm" />
+    <None Include="default.php" />
+    <None Include="edit.php" />
+    <None Include="floatbox\compressed\.htaccess" />
+    <None Include="floatbox\compressed\floatbox.css.gz" />
+    <None Include="floatbox\compressed\floatbox.js.gz" />
+    <None Include="floatbox\compressed\framebox.js.gz" />
+    <None Include="floatbox\compressed\WS_FTP.LOG" />
+    <None Include="floatbox\docs\WS_FTP.LOG" />
+    <None Include="floatbox\graphics\WS_FTP.LOG" />
+    <None Include="floatbox\languages\ar.json" />
+    <None Include="floatbox\languages\cs.json" />
+    <None Include="floatbox\languages\da.json" />
+    <None Include="floatbox\languages\de.json" />
+    <None Include="floatbox\languages\el.json" />
+    <None Include="floatbox\languages\en.json" />
+    <None Include="floatbox\languages\es.json" />
+    <None Include="floatbox\languages\fi.json" />
+    <None Include="floatbox\languages\fr.json" />
+    <None Include="floatbox\languages\gl.json" />
+    <None Include="floatbox\languages\hi.json" />
+    <None Include="floatbox\languages\hr.json" />
+    <None Include="floatbox\languages\hu.json" />
+    <None Include="floatbox\languages\it.json" />
+    <None Include="floatbox\languages\ja.json" />
+    <None Include="floatbox\languages\nl.json" />
+    <None Include="floatbox\languages\no.json" />
+    <None Include="floatbox\languages\pl.json" />
+    <None Include="floatbox\languages\pt.json" />
+    <None Include="floatbox\languages\ru.json" />
+    <None Include="floatbox\languages\sk.json" />
+    <None Include="floatbox\languages\sv.json" />
+    <None Include="floatbox\languages\th.json" />
+    <None Include="floatbox\languages\vi.json" />
+    <None Include="floatbox\languages\WS_FTP.LOG" />
+    <None Include="floatbox\languages\zh.json" />
+    <None Include="floatbox\languages\zh.traditional.json" />
+    <None Include="floatbox\WS_FTP.LOG" />
+    <None Include="galleries.php" />
+    <None Include="galleries1.php" />
+    <None Include="galleries1_FBZ019YKOY.php" />
+    <None Include="galleries_.php" />
+    <None Include="osia-postcard\postcard-final-back-cmyk.psd" />
+    <None Include="osia-postcard\postcard-final-front-cmyk.psd" />
+    <None Include="send_mail.php" />
+    <None Include="store.php" />
+    <None Include="webimages\WS_FTP.LOG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SunriverDatabase\Common\Common.csproj">
+      <Project>{F42E57F0-2327-4E3D-B9F6-2403B6C6CC9D}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52047</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
